@@ -160,4 +160,12 @@
  }
 
 
+
+
+}
+
+@media screen and (max-width: 780px) {
+ #home-img {
+  display: none;
+ }
 }
