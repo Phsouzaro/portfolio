@@ -1,0 +1,26 @@
+
+.home .scroll-down i {
+ color: var(--second-color);
+ font-size: 1.2em;
+ animation: arrow-down ease 1s infinite;
+}
+
+@keyframes arrow-down{
+ 0%{
+  transform: translateY(0);
+ }
+ 30%{
+  transform: translateY(10px)
+ }
+}
+.info .btn i{
+ animation: arrow-right ease 1s infinite;
+}
+@keyframes arrow-right{
+ 0%{
+  transform: translateX(0);
+ }
+ 30%{
+  transform: translateX(10px);
+ }
+}

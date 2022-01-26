@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('./variaveis.css');
+@import url('./header.css');
+@import url('./home.css');
+@import url('./about.css');
+@import url('./skills.css');
+@import url('./services.css');
+@import url('./animations.css');
+@import url('./portfolio.css');
+
+/*******************************************************************************************************/
+/*Scroll Bar*/
+::-webkit-scrollbar {
+ width: 10px;
+ background: var(--scroll-bar-color);
+}
+
+::-webkit-scrollbar-thumb {
+ background: var(--scroll-thumb-color);
+ border-radius: 2em;
+}
+
+::-webkit-scrollbar-thumb:hover {
+ background: var(--scroll-thumb-hover-color);
+}
+
+/*Scroll Bar End*/
+/*******************************************************************************************************/
+
+/*******************************************************************************************************/
