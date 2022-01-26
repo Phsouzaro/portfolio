@@ -10,7 +10,6 @@
     integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="./assets/css/style.css">
-  <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css">
 
 </head>
 
@@ -25,7 +24,8 @@
       <a href="#" class="logo">Pedro</a>
       <div class="navigation">
         <div class="nav-items">
-          <a href="#home">Inicio</a>
+          <div class="nav-close-btn"></div>
+          <a class="active" href="#home">Inicio</a>
           <a href="#about">Sobre</a>
           <a href="#skills">Habilidades</a>
           <a href="#services">Serviços</a>
@@ -33,6 +33,7 @@
           <a href="#contact">Contato</a>
         </div>
       </div>
+      <div class="nav-menu-btn"></div>
     </div>
   </header>
   <!--Home Section-->
@@ -51,7 +52,7 @@
         <p>Profissional na área com pouca experiência mas um grande conhecimento, pronto para ser transformado em
           projetos praticos incriveis para lhe oferecer.
         </p>
-        <a href="#" class="btn">Fale comigo <i class="fas fa-arrow-circle-right"></i></a>
+        <a href="#contact" class="btn">Fale comigo <i class="fas fa-arrow-circle-right"></i></a>
       </div>
       <div class="home-img">
         <img src="./assets/img/imagem-01.png" alt="EuMesmo">
@@ -87,7 +88,7 @@
             </li>
             <li class="list-item">
               <h3>0+</h3>
-              <span>Clientes</br>Felizes</span>
+              <span>Clientes</br>Satisfeitos</span>
             </li>
             <li class="list-item">
               <h3>0+</h3>
@@ -458,7 +459,7 @@
             </div>
             <div class="second-row">
               <input type="email" placeholder="Email">
-              <input type="text" placeholder="Sujeito">
+              <input type="text" placeholder="Assunto">
             </div>
             <div class="third-row">
               <textarea name="message" id="" rows="7" placeholder="Mensagem"></textarea>
@@ -470,6 +471,46 @@
     </div>
   </section>
   <!--Footer-->
+  <footer>
+    <div class="footer-container">
+      <div class="about group">
+        <h2>Pedro</h2>
+        <p>Desenvolvedor Front-End</p>
+        <a href="#about">Sobre mim</a>
+      </div>
+      <div class="hr">
+        <div class="info group">
+          <h3>Mais</h3>
+          <ul>
+            <li><a href='#skills'>Habilidades</a></li>
+            <li><a href='#services'>Serviços</a></li>
+            <li><a href='#portfolio'>Portfolio</a></li>
+            <li><a href='#contact'>Contato</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="hr">
+        <div class="follow group">
+          <h3>Me Siga</h3>
+          <ul>
+            <li><a href="https://www.facebook.com/Pedro.Henrique.rsou/" target="_blank" title='@Pedro.Henrique.rsou'><i
+                  class="fab fa-facebook"></i></a></li>
+            <li><a href="https://www.instagram.com/pedro_rsouz/" target="_blank" title='@pedro_rsouz'><i
+                  class="fab fa-instagram"></i></a></li>
+            <li><a href="https://github.com/Phsouzaro" target="_blank" title='Phsouzaro'><i
+                  class="fab fa-github"></i></a>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+
+    </div>
+    <div class="footer-copyright group">
+
+      <p>&copy; <span>2022</span> por Pedro Souza. Todos os direitos reservados</p>
+    </div>
+  </footer>
   <!--External scripts-->
   <script src="./assets/js/main.js"></script>
 </body>

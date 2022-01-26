@@ -43,3 +43,43 @@ portfolioCloseBtns.forEach((portfolioCloseBtn) => {
  })
 })
 
+
+//Navigation menu items active on page scroll
+
+window.addEventListener('scroll', () => {
+ const sections = document.querySelectorAll('section')
+ const scrollY = window.pageYOffset;
+
+ sections.forEach(current => {
+  let sectionHeight = current.offsetHeight;
+  let sectionTop = current.offsetTop - 50;
+  let id = current.getAttribute('id');
+  const navItems = document.querySelector('.nav-items a[href*=' + id + ']')
+  if (scrollY > sectionTop && scrollY <= sectionTop + sectionHeight) {
+   /*    navItems.classList.add('active'); */
+  } else {
+
+   /* navItems.classList.remove('active'); */
+
+  }
+ })
+})
+
+const menuBtn = document.querySelector('.nav-menu-btn')
+const closeBtn = document.querySelector('.nav-close-btn')
+const navigation = document.querySelector('.navigation')
+const navItem = document.querySelectorAll('.nav-items a')
+
+menuBtn.addEventListener('click', () => {
+ navigation.classList.add('active')
+})
+
+closeBtn.addEventListener('click', () => {
+ navigation.classList.remove('active')
+})
+
+navItem.forEach(current => {
+ current.addEventListener('click', () => {
+  navigation.classList.remove('active')
+ })
+})
