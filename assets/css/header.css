@@ -134,4 +134,8 @@ header.sticky .nav-bar {
   cursor: pointer;
  }
 
+ .home-container .home-img img {
+  width: 100%;
+ }
+
 }

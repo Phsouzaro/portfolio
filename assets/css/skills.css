@@ -13,8 +13,8 @@
 .skills-info {
  max-width: 100%;
  display: grid;
- grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
- gap: 20px;
+ grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+ gap: 25%;
  margin: 0 auto;
 }
 
@@ -162,4 +162,11 @@
 
 .edu-list .item:hover, .bar:hover, .experience-card:hover, .service-card:hover {
  transform: scale(1.10);
+}
+
+@media screen and (max-width: 1070px) {
+ .skills-info {
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+ }
 }

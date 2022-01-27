@@ -113,3 +113,16 @@ li {
 }
 
 /*Common style for all sections end*/
+
+@media screen and (max-width: 500px) {
+ .section-title-01 {
+  font-size: 3em;
+  font-weight: 800;
+ }
+
+ .section-title-02 {
+  font-size: 1.5em;
+  font-weight: 700;
+  transform: translateY(-60px);
+
+ }
