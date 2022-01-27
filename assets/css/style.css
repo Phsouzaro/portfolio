@@ -597,7 +597,6 @@ header.sticky .nav-bar {
  display: grid;
  grid-template-columns: repeat(auto-fill, minmax(225px, 1fr));
  max-width: 100%;
- padding: 0 2rem;
  margin: 0 auto;
  gap: 15%;
 }
@@ -1216,16 +1215,25 @@ footer a {
 /*media screen and (max-width: 1070px) end*/
 /*******************************************************************************************************/
 /*******************************************************************************************************/
-/*@media screen and (max-width: 940px)*/
-@media screen and (max-width: 940px) {
+/*media screen and (max-width: 900px)*/
+@media screen and (max-width: 900px) {
  .service-list {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
-  gap: 5%;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 10%;
  }
 }
 
-/*@media screen and (max-width: 940px) end*/
+/*media screen and (max-width: 900px) end*/
+/*******************************************************************************************************/
+/*******************************************************************************************************/
+/*@media screen and (max-width: 1090px)*/
+@media screen and (max-width: 1090px) {
+ .service-list {
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+ }
+}
+
+/*@media screen and (max-width: 1090px) end*/
 /*******************************************************************************************************/
 /*******************************************************************************************************/
 /*media screen and (max-width: 780px)*/
@@ -1255,28 +1263,36 @@ footer a {
  .section {
   padding: 96px 0;
  }
-}
 
-.get-in-touch .contact-card {
- display: grid;
-}
+ .get-in-touch .contact-card {
+  display: grid;
+ }
 
-.contact-card .title {
- font-size: 0.6rem;
- line-height: 40px;
-}
+ .contact-card .title {
+  font-size: 0.6rem;
+  line-height: 40px;
+ }
 
-.contact-card .contact-btn .btn {
- font-size: 0.8rem;
-}
+ .contact-card .contact-btn .btn {
+  font-size: 0.8rem;
+ }
 
+ .service-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  gap: 5%;
+  padding: 0 2rem;
+ }
+
+ .professional-list {
+  padding: 0 2rem;
+ }
+
+ .cvDownload {
+  margin-left: 2rem;
+ }
+}
 
 /*media screen and (max-width: 780px) end*/
-/*******************************************************************************************************/
-/*******************************************************************************************************/
-/*media screen and (max-width: 500ox)*/
-@media screen and (max-width: 500px) {}
-
-/*media screen and (max-width: 500px) end*/
 /*******************************************************************************************************/
 /*******************************************************************************************************/
