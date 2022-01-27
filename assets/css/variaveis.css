@@ -126,3 +126,8 @@ li {
   transform: translateY(-60px);
 
  }
+
+ .section {
+  padding: 96px 0;
+ }
+}
