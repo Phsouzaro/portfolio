@@ -87,7 +87,7 @@
  scrollReveal().reveal('.home .info h2, .section-title-01, .section-title-02, .description h3, .contact-left', { delay: 100, origin: 'left' });
  scrollReveal().reveal('.home .info h3,.home .info p, .description h4, .services-description, .contact-right', { delay: 200, origin: 'right' });
  scrollReveal().reveal('.description p, .skills-description', { delay: 300, origin: 'bottom' });
- scrollReveal().reveal('.media-icons i, .professional-list .list-item, .education ul li, .service-list li', { delay: 300, origin: 'left', interval: 50 });
+ scrollReveal().reveal('.media-icons i, .professional-list .list-item, .education ul li', { delay: 300, origin: 'left', interval: 50 });
  scrollReveal().reveal('.home-img, .btn, .get-in-touch .container', { delay: 200, origin: 'bottom' });
 
  //start
