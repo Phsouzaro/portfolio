@@ -15,7 +15,7 @@ Build: `npm run build`. Static output is in `dist/portfolio/browser`.
 
 ## Before publishing
 
-- Replace the LinkedIn placeholder (`https://www.linkedin.com/`) with the real profile URL.
+- LinkedIn: https://www.linkedin.com/in/pedro-henrique-souza-6b257616b
 - Review copy and professional claims.
 - Add real project screenshots and a dedicated Atlas case study in the next iteration.
 - Configure hosting (Cloudflare Pages or Vercel) to build with `npm run build` and publish `dist/portfolio/browser`.
